@@ -1,32 +1,27 @@
 baseURL = 'https://drezdin.com/'
 languageCode = 'en-us'
-title = 'Drezdin'
-theme = "drezdin"
+title = 'drezdin'
+theme = "hugo-theme-m10c"
 
 
 
 [[menu.main]]
-  identifier = "blog"
+  identifier = "posts"
   name       = "Posts"
   url        = "/posts/"
 
 
 [[menu.main]]
   identifier = "contact"
-  name       = "Contact Me"
+  name       = "Contact"
   url        = "/contact/"
 
 
 [params]
-author      = "John Janes"
-description = "Senior Software Engineer – Many Ninja Custom Software Solutions"
+author      = "drezdin"
+description = "h4x0r/streamer/gamer"
 avatar      = "jj-geek.jpg"      # put avatar.jpg in /static
 favicon     = "/favicon.ico"
-
-[[params.social]]
-  icon = "brand-github"
-  name = "GitHub"
-  url  = "https://github.com/jjanes"
 
 [[params.social]]
   icon = "brand-x"
@@ -47,7 +42,10 @@ favicon     = "/favicon.ico"
   url  = "https://twitch.com/jjfishii"
 
 
-[[params.social]]
-  icon = "brand-linkedin"
-  name = "LinkedIn"
-  url  = "https://linkedin.com/in/johnrjanes"
+[params.style]
+  darkestColor = "#d35050"
+  darkColor = "#000"
+  lightColor = "#f5e3e0"
+  lightestColor = "#f5f5f5"
+  primaryColor = "#ffffff"
+
